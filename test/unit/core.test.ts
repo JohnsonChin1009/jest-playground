@@ -38,7 +38,7 @@ describe("Core Unit Testing", () => {
       const a = 10;
       const b = 2;
 
-      expect(divideTwoNumbers(a, b)).toBe(5);
+      expect(divideTwoNumbers(a, b)).toBe(999);
     });
   });
 });
