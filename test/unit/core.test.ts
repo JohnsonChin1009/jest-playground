@@ -2,6 +2,7 @@ import {
   addTwoNumbers,
   subtractTwoNumbers,
   multiplyTwoNumbers,
+  divideTwoNumbers,
 } from "../../src/core";
 
 describe("Core Unit Testing", () => {
@@ -29,6 +30,15 @@ describe("Core Unit Testing", () => {
       const b = 5;
 
       expect(multiplyTwoNumbers(a, b)).toBe(50);
+    });
+  });
+
+  describe("Divide Numbers Testing", () => {
+    it("should divide two numbers correctly", () => {
+      const a = 10;
+      const b = 2;
+
+      expect(divideTwoNumbers(a, b)).toBe(5);
     });
   });
 });
