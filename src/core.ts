@@ -18,9 +18,14 @@ function divideTwoNumbers(x: number, y: number) {
   return x / y;
 }
 
+function shoutLily() {
+  return "lily";
+}
+
 export {
   addTwoNumbers,
   subtractTwoNumbers,
   multiplyTwoNumbers,
   divideTwoNumbers,
+  shoutLily,
 };
