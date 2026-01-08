@@ -14,4 +14,18 @@ function multiplyTwoNumbers(x: number, y: number) {
   return x * y;
 }
 
-export { addTwoNumbers, subtractTwoNumbers, multiplyTwoNumbers };
+function divideTwoNumbers(x: number, y: number) {
+  return x / y;
+}
+
+function shoutLily() {
+  return "lily";
+}
+
+export {
+  addTwoNumbers,
+  subtractTwoNumbers,
+  multiplyTwoNumbers,
+  divideTwoNumbers,
+  shoutLily,
+};
